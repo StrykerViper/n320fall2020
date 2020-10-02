@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="boxOne" class="box">
+      <!-- svgs will be put in here for each square -->
+    </div>
+    <svg id="gameBoard" width="600" height="600">
+      <line x1="200" y1="0" x2="200" y2="600" stroke="#000000" />
+      <line x1="400" y1="0" x2="400" y2="600" stroke="#000000" />
+      <line x1="0" y1="200" x2="600" y2="200" stroke="#000000" />
+      <line x1="0" y1="400" x2="600" y2="400" stroke="#000000" />
+      <!-- <text id="xBox1" fill="#000000" font-size="200" font-family="montserrat" x="30" y="165">X</text> -->
+      <text
+        id="oBox5"
+        fill="#000000"
+        font-size="200"
+        font-family="montserrat"
+        x="215"
+        y="365"
+      >
+        O
+      </text>
+    </svg>
+    <div>
+      <p>
+        Data--------------- each player and the turn they go Each spot a player
+        can click The x or o for whichever player the winning combanations if
+        now winning combination then tie keep score of who wins
+      </p>
+      <p>classes----------- xplayer yplayer board</p>
+      <p>
+        relations---------- the players place their svg letters on the board
+      </p>
+    </div>
+    <script src="app/app.js"></script>
+  </body>
+</html>
