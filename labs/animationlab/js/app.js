@@ -29,7 +29,7 @@ function remove4(){
     TweenLite.to("#gridItem4", 0.4, {x: 1500, y:-1500})
 }
 function remove5(){
-    TweenLite.to("#gridItem5", 5, {x: -1600, rotation: -560})
+    TweenLite.to("#gridItem5", 5, {x: -2000, rotation: -560})
 }
 // hover over functions
 function hover0(){
