@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending machine</title>
+    <style>
+        .machineStyle{
+            display: flex;
+        }
+        .itemOne{
+            background-color: crimson;
+            width: 103px;
+            color: white;
+            padding: 10px;
+            margin-right: 3px;
+            font-family: Montserrat;
+        }
+        .itemTwo{
+         
+            background-color: rgb(131, 54, 2);
+            width: 95px;
+            color: white;
+            padding: 10px;
+            margin-right: 3px;
+            font-family: Montserrat;
+        }
+        .itemThree{
+           
+            background-color: yellow;
+            width: 115px;
+            color: black;
+            padding: 10px;
+            margin-right: 3px;
+            font-family: Montserrat;
+        }
+    </style>
+</head>
+<body>
+
+  
+    <div class="machineStyle" id="machineDiv"></div>
+    <button onclick="dispenceCandyOne()">Dispence Twizzler</button>
+    <button onclick="dispenceCandyTwo()">Dispence M&ms</button>
+    <button onclick="dispenceChipOne()">Dispence Bag Of Air</button>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
