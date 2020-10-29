@@ -1,0 +1,102 @@
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* background-color: aqua; */
+}
+.topMiddle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* background-color: aqua; */
+    left: 210px;
+}
+.topRight{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* background-color: aqua; */
+    left: 410px;
+}
+/* ------------- */
+.middleLeft{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* background-color: aqua; */
+    top: 210px;
+}
+.middleMiddle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* background-color: aqua; */
+    top: 210px;
+    left: 210px;
+}
+.middleRight{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* background-color: aqua; */
+    top: 210px;
+    left: 410px;
+}
+/* ------------ */
+.bottomLeft{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* background-color: aqua; */
+    top: 410px;
+}
+.bottomMiddle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* background-color: aqua; */
+    top: 410px;
+    left: 210px;
+}
+.bottomRight{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* background-color: aqua; */
+    top: 410px;
+    left: 410px;
+}
+h1{
+    font-family: Montserrat;
+}
+.resetButton{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    cursor: pointer;
+    transition-duration: .5s;
+    position: relative;
+    animation-name: buttonAnimation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: .5s;
+}
+@keyframes buttonAnimation {
+    0%      {left:0px;}
+    25%     {left:50px;}
+    50%     {left:100px;}
+    75%     {left:50px;}
+    100%    {left:0px;}
+}
+.resetButton:hover{
+    background-color: rgb(0, 0, 0);
+    transition-duration: .5s;
+    box-shadow: 2px 5px 10px black;
+}

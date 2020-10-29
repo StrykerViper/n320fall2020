@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    
+    <div id="boxOne" class="box">
+      <!-- svgs will be put in here for each square -->
+    </div>
+    <div id="topMiddle" class="topMiddle"></div>
+    <div id="topRight" class="topRight"></div>
+
+    <div id="middleLeft" class="middleLeft"></div>
+    <div id="middleMiddle" class="middleMiddle"></div>
+    <div id="middleRight" class="middleRight"></div>
+
+    <div id="bottomLeft" class="bottomLeft"></div>
+    <div id="bottomMiddle" class="bottomMiddle"></div>
+    <div id="bottomRight" class="bottomRight"></div>
+
+    <svg id="gameBoard" width="600" height="600">
+      <line x1="200" y1="0" x2="200" y2="600" stroke="#000000" />
+      <line x1="400" y1="0" x2="400" y2="600" stroke="#000000" />
+      <line x1="0" y1="200" x2="600" y2="200" stroke="#000000" />
+      <line x1="0" y1="400" x2="600" y2="400" stroke="#000000" />
+      <!-- <text id="xBox1" fill="#000000" font-size="200" font-family="montserrat" x="30" y="165">X</text> -->
+     
+    </svg>
+    <h1>Tic-Tac-Toe</h1>
+    <button class="resetButton" onclick="window.location.reload()">Reset</button>
+    
+    <script src="app/app.js"></script>
+  </body>
+</html>
